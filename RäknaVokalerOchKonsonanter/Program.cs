@@ -35,9 +35,11 @@ namespace RäknaVokalerOchKonsonanter
 
         }
 
+        const string vokaler = "AOUÅEIYÄÖ";
+
         private static bool ärVokal(char bokstav)
         {
-            return "AOUÅEIYÄÖ".Contains(bokstav);
+            return vokaler.Contains(bokstav);
         }
     }
 }
